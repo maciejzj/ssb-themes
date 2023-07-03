@@ -4,6 +4,6 @@
 set -eu
 
 rm -r styles.css
-../ssb/ssb -g
+ssb -g
 ln -fs "$1" styles.css
-../ssb/ssb -d index.md
+ssb -d index.md
