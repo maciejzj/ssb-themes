@@ -3,7 +3,7 @@
 
 set -eu
 
-rm -r styles.css
+rm -f styles.css
 ssb -g
 ln -fs "$1" styles.css
 ssb -d index.md
