@@ -4,7 +4,7 @@
 	--teal-background: rgb(62, 117, 108);
 	--teal-foreground: rgb(105, 224, 205);
 	--teal-pale: rgb(63, 112, 104);
-	--teal-strong: rgb(18, 74, 66);
+	--teal-strong: rgb(10, 65, 50);
 }
 
 body {
@@ -43,7 +43,31 @@ footer {
 
 h1, h2, h3, h4, h5, h6 {
 	font-family: "Times New Roman", Times, serif;
-	font-weight: normal
+	font-weight: normal;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+h2 {
+	font-size: 2.25em;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+h4 {
+	font-size: 1.75em;
+}
+
+h5 {
+	font-size: 1.5em;
+}
+
+h6 {
+	font-size: 1.25em;
 }
 
 p {
@@ -112,12 +136,12 @@ tr {
 
 th {
 	font-weight: bold;
-	border: 0.08em solid var(--teal-strong);
+	border: 0.15em solid var(--teal-strong);
 	padding: 0.5em 1em;
 }
 
 td {
-	border: 0.08em solid var(--teal-strong);
+	border: 0.15em solid var(--teal-strong);
 	padding: 0.5em 1em;
 }
 
@@ -152,6 +176,6 @@ img, video {
 	}
 
 	nav a:not(:last-child) {
-		margin-bottom: 0.5em
+		margin-bottom: 0.5em;
 	}
 }
